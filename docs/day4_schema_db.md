@@ -1,4 +1,4 @@
-# Skema Database: retail.db
+# Hari 4 - Skema Database: retail.db
 
 Database ini akan menyimpan data penjualan ritel dari dataset bersih.
 

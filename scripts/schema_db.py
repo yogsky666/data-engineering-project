@@ -14,7 +14,7 @@ with open('../scripts/db_setup.sql', 'r') as sql_file:
 df = pd.read_csv('../data/cleaned/cleaned_retail_data.csv')
 
 # 4. Simpan ke tabel SQLite
-df.to_sql('retail_data', conn, if_exists='replace', index=False)
+df.to_sql('retail_sales', conn, if_exists='replace', index=False)
 
 # 5. Tutup koneksi
 conn.commit()
